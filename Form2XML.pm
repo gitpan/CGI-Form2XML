@@ -14,6 +14,9 @@
 #*****************************************************************************
 #*
 #*          $Log: Form2XML.pm,v $
+#*          Revision 1.3  2002/07/28 10:10:11  gellyfish
+#*          * POD bugette (noticed in new CPAN search)
+#*
 #*          Revision 1.2  2002/05/25 09:06:30  gellyfish
 #*          Release version
 #*
@@ -74,12 +77,13 @@ use vars qw(@ISA $VERSION);
            CGI
          );
 
-($VERSION) = q$Revision: 1.2 $ =~ /([\d.]+)/;
+($VERSION) = q$Revision: 1.3 $ =~ /([\d.]+)/;
 
 =item  new
 
 The constructor for the class.  Returns a blessed object of type CGI::Form2XML.
 Any arguments provided will be passed to the constructor of CGI.
+
 =cut
 
 sub new
