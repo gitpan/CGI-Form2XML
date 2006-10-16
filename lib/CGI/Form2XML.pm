@@ -14,6 +14,9 @@
 #*****************************************************************************
 #*
 #*          $Log: Form2XML.pm,v $
+#*          Revision 1.3  2004/03/02 20:28:02  jonathan
+#*          Put back in CVS
+#*
 #*          Revision 1.3  2002/07/28 10:10:11  gellyfish
 #*          * POD bugette (noticed in new CPAN search)
 #*
@@ -77,7 +80,7 @@ use vars qw(@ISA $VERSION);
            CGI
          );
 
-($VERSION) = q$Revision: 1.3 $ =~ /([\d.]+)/;
+$VERSION = '1.4';
 
 =item  new
 
